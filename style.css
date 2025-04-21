@@ -1,0 +1,70 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.main{
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+    height: 25vh;
+    border-bottom: 1px solid brown;
+}
+h1{
+    margin: 30px 20px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+span{
+    font-size: 25px;
+    color: brown;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#par1{
+    font-style: italic;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: solid 2px;
+    font-size: 15px;
+    background-color: rgb(243, 159, 50);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hobbies{
+    background-color: azure;
+    padding: 25px;
+    border-bottom: 1px solid brown;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.drink{
+    background-color: beige;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid brown;
+}
+.drink p{
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.contact{
+    padding: 20px;
+}
+input{
+    margin: 10px;
+    margin-left: 0;
+    padding: 8px;
+    border-radius: 5px;
+}
