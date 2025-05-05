@@ -1,105 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | Social links profile</title>
-  <style>
-    body{
-      background-color:  hsl(0, 0%, 8%);
-      color: white;
-      font-family: Inter, sans-serif;
-    }
-    p{
-      font-size: 14px;
-      font-weight: bold;
-    }
-    .card{
-     background-color: hsl(0, 0%, 12%);
-     display: flex;
-     flex-direction: column;
-     width: 280px;
-     align-items: center;
-     padding: 40px 35px;
-     border-radius: 10px;
-     position: relative;
-     top: 70px;
-     left: 500px;
-    }
-    img{
-      width: 70px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
-    .card-details{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    h1{
-      font-size: 18px;
-      margin-bottom: 0;
-    }
-    .location{
-      color: hsl(75, 94%, 57%);
-    }
-    .description{
-      font-size: 13px;
-      margin-bottom: 25px;
-    }
-    .button-links{
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    button{
-      width: 250px;
-      background-color: hsl(0, 0%, 20%);
-      color: white;
-      font-size: 13px;
-      padding: 12px;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    button:hover{
-      background-color: hsl(75, 94%, 57%);
-      color: black;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Odin Project Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <main>
-    <div class="card">
-      <div class="card-details">
-      <img src="./assets/images/avatar-jessica.jpeg" alt="Profile-picture">
-        <h1>Jessica Randall</h1>
-        <p class="location"> London, United Kingdom</p>
-      </div>
-
-      <p class="description">"Front-end developer and avid reader."</p>
-      
-      <div class="button-links">
-        <button>GitHub</button>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
-        <button>Instagram</button>
-      </div>
+    <header>
+        <p class="logo">Cynosure</p>
+            <nav>
+                <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!-- The main content begins -->
+    <main>
+       <div class="container">
+        <div class="left">
+            <h1>This is a practice website</h1>
+            <p>I am not sure what i'm doing but i hope you like it.</p>
+            <button>Dive in</button>
+        </div>
+        <div class="right">
+            <img src="pic.jpg" alt="A random picture">
+        </div>
+       </div>
+       <!-- The box section -->
+       <h2>Cards Section</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="profile-pic.jpg" alt="Profile pic">
+                    <p>Shafiriyu Roqeeb Taiwo, an aspiring developer</p>
+                </div>
+                <div class="card">
+                    <img src="profile-pic.jpg" alt="Profile pic">
+                    <p>Shafiriyu Roqeeb Taiwo, an aspiring developer</p>
+                </div>
+                <div class="card">
+                    <img src="profile-pic.jpg" alt="Profile pic">
+                    <p>Shafiriyu Roqeeb Taiwo, an aspiring developer</p>
+                </div>
+                <div class="card">
+                    <img src="profile-pic.jpg" alt="Profile pic">
+                    <p>Shafiriyu Roqeeb Taiwo, an aspiring developer</p>
+                </div>
+            </div>
+            <div class="quote-section">
+                <div class="quote-text">
+                    <p>To short the story cut, don't cover a judge with a book. Take all that glitters and select the gold there. Throw stone out of a glass house, nothing go happen. Lorem ipsum dolor, dolor lipsum iorem </p>
+                    <h5>- Roqeeb, a confused Nigerian</h5>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-text">
+                    <p id="bold-p">Follow us! Get in touch!</p>
+                    <p>Sign up for our product by clicking this button</p>
+                </div>
+                <div class="footer-button">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+    </main>
+    <footer>
+    <div class="base-section">
+        <p>Copyright &copy; The Odin Project 2021</p>
     </div>
-  </main>
-
-<!--  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    </footer>
 </body>
 </html>
